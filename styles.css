@@ -85,6 +85,9 @@ nav{
     color:rgb(238,201,7);
     transform: scale(1.2);
 }
+.hamburger{
+    display: none;
+}
 
 
 
@@ -631,6 +634,19 @@ font-family: 'Poiret One', cursive;
         transform: scale(1.2);
     }
     
+    /* hambuger  */
+    .hamburger{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+
+    }
+    .hamburger span{
+        border: 2px solid rgb(74, 192, 184);
+        width: 30px;
+      
+    }
     
     
     /* HERO SECTION STARTS HERE  */
