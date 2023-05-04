@@ -35,8 +35,8 @@ header{
 }
 nav{
     position: fixed;
-    /* background-color: black; */
-    background-color: rgb(12,75,71);
+    background-color: black;
+    /* background-color: rgb(12,75,71); */
     height: 10vh;
     width: 100%;
     display: flex;
@@ -55,8 +55,8 @@ nav{
     font-size: 30px;
 }
 .logo a{
-    text-decoration: none;    
-    color: rgb(238,201,7);
+    text-decoration: none;
+    color: rgb(154, 245, 239);
 }
 .menu{
     display: flex;
@@ -75,14 +75,14 @@ nav{
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(238,201,7);
+    color: rgb(154, 245, 239);
     transition: all 0.3s ease;
 } 
 /* .menu-items li a.active{
     border-bottom: 4px solid rgb(40, 192, 182);
 } */
 .menu-items li a:hover{
-    color: #fff;
+    color:rgb(238,201,7);
     transform: scale(1.2);
 }
 
@@ -134,26 +134,11 @@ nav{
     font-family: 'Poiret One', cursive;
 }
 .hero-text p span{
-    color: rgb(238,201,7);
-    font-weight: bolder;
+    color: rgb(154, 245, 239);
 }
-.imgSectionDesign{
-    position: absolute;
-    top: 30%;
-    right: 13%;
-  
-
-
-    border: 2px solid #aa0a0a;
-    height: 450px;
-    width: 400px;
-    border-radius: 100%;
-    background-color:   ;
-    background: linear-gradient(to bottom, rgb(12,75,71),rgb(238,201,7));
-    
-}
+/* SOCIALS  */
 .socials{
- border: 0.5px solid rgb(187, 157, 5);
+ border: 0.5px solid black;
  padding: 1%;
  position: fixed;
  /* position: absolute; */
@@ -172,11 +157,11 @@ nav{
     text-decoration: none;  
 }
 .social-links a ion-icon {
-    color: rgb(18, 112, 106);
+    color: rgb(154, 245, 239);
     transition: all 0.3s ease;
 }
 .social-links a ion-icon:hover{
-    color: rgb(154, 245, 239);
+    color: rgb(161, 136, 10);
     transform: scale(1.2);
 }
 
@@ -222,7 +207,7 @@ nav{
     justify-content: center;
 }
 .about-img{
-    border: 5px solid rgb(238,201,7);
+    border: 5px solid rgb(154, 245, 239);
     border-radius: 10%;
     width: 300px;
     height: 350px;
@@ -261,7 +246,7 @@ nav{
     /* border: 2px solid; */
     height: fit-content;
     width: 100%;
-    background-color: rgb(161, 136, 10);
+    background-color: rgb(12,75,71);
     color:#e3e9e3;
     display: flex;
     flex-direction: column;
@@ -405,6 +390,7 @@ background-color: rgb(12,75,71);
 
 /* EVENTS  */
 .events{
+    background-color: #eaf1ea;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -433,7 +419,7 @@ background-color: rgb(12,75,71);
 
 }
 .event1, .event2{
-    background-color: rgb(230, 228, 221);
+    background-color: rgb(224, 223, 215);
     color:black;
     border-radius: 10px;
     overflow: hidden;
@@ -473,20 +459,39 @@ background-color: rgb(12,75,71);
 
 }
 
-/* videos  */
-.live-performances{
-    margin-top: 5em;
-    margin-bottom: 5em;
+
+ /* videos  */
+ .live-performances{
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-color: rgb(10, 27, 27);
     width: 100%;
-    height: 250px;
+    height: fit-content;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 2em;
+}
+.live-performances h1{
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #e3e9e3;
+    font-family: 'Poiret One', cursive;
 
 }
+.live-performances-content{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+     gap: 2em;
+     justify-content: center;
+}
 .videos{
-    width: 30%;
-    height: 100%;
+    width: 95%;
+    height: 250px;
+     
 }
 
 
@@ -943,6 +948,7 @@ font-family: 'Poiret One', cursive;
 
     /* EVENTS  */
     .events{
+        background-color: #ebf1eb;
         width: 100%;
         min-height: 100vh;
         display: flex;
@@ -970,11 +976,11 @@ font-family: 'Poiret One', cursive;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5em;
+        gap: 3em;
     
     }
     .event1, .event2{
-        background-color: rgb(230, 228, 221);
+        background-color: rgb(211, 209, 200);
         color:black;
         border-radius: 10px;
         overflow: hidden;
