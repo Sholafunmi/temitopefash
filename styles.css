@@ -561,8 +561,7 @@ font-family: 'Poiret One', cursive;
      min-height: 100vh;
      align-items: center;
     overflow: hidden;
-    /* background-color: rgb(3, 44, 41); */
-    background-color: black;
+    background-color: rgb(3, 44, 41);
 }
     .header-content{
         display: flex;
@@ -757,7 +756,7 @@ font-family: 'Poiret One', cursive;
         justify-content: center;
     }
     .about-img{
-        border: 5px solid rgb(238,201,7);
+        border: 5px solid rgb(74, 192, 184);
         border-radius: 10%;
         /* width: 300px; */
         width: 95%;
@@ -1055,12 +1054,14 @@ font-family: 'Poiret One', cursive;
     footer{
     /* border: 2px solid red; */
     background-color: black;
-    min-height: 15vh;
+    /* min-height: 15vh; */
+    height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Poiret One', cursive;
+    padding: 1em 0;
     }
     .footer-content{
         color: #e3e9e3;
