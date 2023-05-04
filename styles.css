@@ -540,6 +540,11 @@ font-family: 'Poiret One', cursive;
 
 /* MOBILE SECTION FOR ALL STARTS HERE  */
 @media only screen and (max-width:928px){
+   *, 
+   body{
+        margin: 0;
+        padding: 0;
+    }
     main{
         display: flex;
         flex-direction: column;
@@ -556,8 +561,8 @@ font-family: 'Poiret One', cursive;
     overflow: hidden;
     background-color: rgb(12,75,71);
     background-image: url(./images/rbg7-cut.png);
-      background-position:bottom;
-      background-size: contain;
+      background-position:top;
+      background-size: cover;
       background-repeat: no-repeat; 
     }
     .header-content{
