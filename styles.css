@@ -561,8 +561,8 @@ font-family: 'Poiret One', cursive;
      min-height: 100vh;
      align-items: center;
     overflow: hidden;
-    /* background-color: rgb(12,75,71); */
-    background-color: rgb(3, 44, 41);
+    /* background-color: rgb(3, 44, 41); */
+    background-color: black;
 }
     .header-content{
         display: flex;
@@ -672,7 +672,6 @@ font-family: 'Poiret One', cursive;
     }
     .hero-text p span{
         color: rgb(154, 245, 239);
-        font-weight: bolder;
     }
     /* .imgSectionDesign{
         position: absolute;
@@ -707,16 +706,17 @@ font-family: 'Poiret One', cursive;
     .social-links a ion-icon {
         color: rgb(154, 245, 239);
         transition: all 0.3s ease;
-        /* font-size: 15px; */
+        font-size: 18px;
+        font-weight: lighter;
     }
     .social-links a ion-icon:hover{
         color: #fff;
         transform: scale(1.2);
     }
     
-    .socials img{
+    /* .socials img{
         width: 25px; 
-    }
+    } */
     
     
     /* ABOUT SECTION STARTS HERE  */
@@ -896,6 +896,7 @@ font-family: 'Poiret One', cursive;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 2em;
     }
     .service2 h2{
         margin-bottom: 1em;
@@ -985,6 +986,7 @@ font-family: 'Poiret One', cursive;
         gap: .5em;
         align-items: center;
         text-align: center;
+        padding-bottom: .5em;
     }
     .event1:hover, .event2:hover{
         box-shadow: 4px 8px 0px rgb(238,201,7);
@@ -1003,6 +1005,9 @@ font-family: 'Poiret One', cursive;
     }
     .event2-img{
       background-image: url(./images/ijosinn.jpg);
+    }
+    .events .bookMe{
+        /* margin-top: 1em; */
     }
 
     /* videos  */
@@ -1050,7 +1055,7 @@ font-family: 'Poiret One', cursive;
     footer{
     /* border: 2px solid red; */
     background-color: black;
-    min-height: 10vh;
+    min-height: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1081,7 +1086,33 @@ font-family: 'Poiret One', cursive;
       color: #e3e9e3;
       font-size: 15px;
     }
+
+    .footer-socials{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 1em; */
+       }
+       .footer-social-links{
+           display: flex;
+           gap: 1.5em;
+       }
+       .footer-social-links a{
+           text-decoration: none;  
+       }
+       .footer-social-links a ion-icon {
+           color: rgb(154, 245, 239);
+           transition: all 0.3s ease;
+           font-size: 18px;
+           font-weight: lighter;
+       }
+       .footer-social-links a ion-icon:hover{
+           color: #fff;
+           transform: scale(1.2);
+       }
+       
 }
-  /* rgb(12,75,71)
-    rgb(238,201,7)  
-    #DEF4F0  */
+
+
