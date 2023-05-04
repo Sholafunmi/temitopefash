@@ -574,7 +574,7 @@ font-family: 'Poiret One', cursive;
     nav{
         position: fixed;
         background-color: black;
-        /* background-color: rgb(12,75,71); */
+        background-color: ;
         height: 10vh;
         width: 100%;
         display: flex;
@@ -595,8 +595,8 @@ font-family: 'Poiret One', cursive;
     }
     .logo a{
         text-decoration: none;    
-        color: rgb(238,201,7);
-        /* color: rgb(154, 245, 239); */
+        /* color: rgb(238,201,7); */
+        color: rgb(154, 245, 239);
     }
     .menu{
         /* display: flex; */
@@ -722,7 +722,8 @@ font-family: 'Poiret One', cursive;
     /* ABOUT SECTION STARTS HERE  */
     .about{
         width: 100%;
-        min-height: 100vh;
+        /* min-height: 100vh; */
+        height: fit-content;
         /* background-color: rgb(12,75,71); */
         background-color: #fff;
         color: black;
@@ -738,7 +739,7 @@ font-family: 'Poiret One', cursive;
     .about-content{
         /* border: 2px solid #fff; */
         margin-top: 2em;
-        width: 80%;
+        width: 90%;
         height: fit-content;
         display: flex;
         flex-direction: column;
@@ -756,12 +757,13 @@ font-family: 'Poiret One', cursive;
         justify-content: center;
     }
     .about-img{
-        border: 5px solid rgb(18, 112, 106);
+        border: 5px solid rgb(238,201,7);
         border-radius: 10%;
-        width: 300px;
+        /* width: 300px; */
+        width: 95%;
         height: 350px;
         background-image: url(./images/DSC06028-trimed.jpg);
-        background-position: center;
+        background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -770,29 +772,26 @@ font-family: 'Poiret One', cursive;
         width: 100%;
         height: fit-content;
         color: black;
-        text-align: center;
+        justify-content: center;
+        /* text-align: center; */
     }
     .about-text p{
         font-size: 20px;
     }
     .bottom{
-        /* border: 2px solid #772727; */
         width: 100%;
-        height: fit-content;
-         align-items: center;
-         justify-content: center;
+        height: fit-content; 
     }
     .auto-biography{
         
     }
     .auto-biography p{
         font-size: 20px;
-        text-align: center;
+        justify-content: center;
     }
     
     /* SERVICES SECTION STARTS HERE  */
     .services{
-        /* border: 2px solid; */
         height: fit-content;
         width: 100%;
         background-color: rgb(12,75,71);
@@ -804,7 +803,7 @@ font-family: 'Poiret One', cursive;
     .services-content{
         margin-top: 2em;
         margin-bottom: 3em;
-         width: 80%;
+         width: 90%;
         height: fit-content;
         display: flex;
         flex-direction: column;
@@ -812,7 +811,7 @@ font-family: 'Poiret One', cursive;
         gap: 2em;
     }
     .services-intro{
-       margin-bottom: 1em;
+       /* margin-bottom: 1em; */
        font-family: 'Poiret One', cursive;
     }
     
@@ -837,15 +836,15 @@ font-family: 'Poiret One', cursive;
         width: 100%;
         height: fit-content;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 3em;
     
     }
     .online{
-        /* border: 2px solid rgb(238,201,7); */
-        padding: 2%; 
-        width: 500px;
+        /* padding: 2%;  */
+        width: 90%;
         min-height: 480px;
         border-radius: 10px;
         display: flex;
@@ -859,6 +858,7 @@ font-family: 'Poiret One', cursive;
     .online, .offline, .cocktails-and-bouquets, .wedding-receptions{
         background-color: rgb(230, 228, 221);
         color: black;
+        padding: 2em 0;
     }
     .online:hover, .offline:hover, .cocktails-and-bouquets:hover, .wedding-receptions:hover{
        box-shadow: 4px 8px 0px rgb(238,201,7);
@@ -871,13 +871,13 @@ font-family: 'Poiret One', cursive;
     }
     .offline{
         /* border: 2px solid rgb(238,201,7); */
-        width: 500px;
+        width: 90%;
         min-height: 480px;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 1%;
+        /* padding: 1%; */
         gap: 1em;
     
     }
@@ -911,32 +911,36 @@ font-family: 'Poiret One', cursive;
         width: 100%;
         height: fit-content;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 3em;
     }
     .wedding-receptions{
-    
-        width: 500px;
+        width: 90%;
         height: fit-content;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 1%;
         gap: 1em;
     }
+    .wedding-receptions h3,  .cocktails-and-bouquets h3{
+        align-self: center;
+        width: 70%;
+        /* margin-top: 1em; */
+    }
     .cocktails-and-bouquets{
-        width: 500px;
+        width: 90%;
           height: fit-content;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 1%;
         gap: 1em;
     }
     
+
     /* EVENTS  */
     .events{
         width: 100%;
@@ -944,25 +948,28 @@ font-family: 'Poiret One', cursive;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 4em;
     }
     .events-contents{
-        width: 80%;
+        width: 90%;
         height: fit-content;
         display: flex;
         flex-direction: column;
       align-items: center;
     }
     .events-contents h1{
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-top: 2em;
       font-family: 'Poiret One', cursive;
     }
     
     .my-event{
-        width: 100%;
+        width: 90%;
         height: fit-content;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 5em;
     
     }
@@ -972,13 +979,12 @@ font-family: 'Poiret One', cursive;
         border-radius: 10px;
         overflow: hidden;
         height:400px;
-        width: 400px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: .5em;
         align-items: center;
         text-align: center;
-    
     }
     .event1:hover, .event2:hover{
         box-shadow: 4px 8px 0px rgb(238,201,7);
@@ -998,29 +1004,43 @@ font-family: 'Poiret One', cursive;
     .event2-img{
       background-image: url(./images/ijosinn.jpg);
     }
-    .title{
-        /* border: 2px solid yellow; */
-    
-    }
-    .event1 p{
-        /* border: 2px solid yellow; */
-    
-    }
-    
+
     /* videos  */
     .live-performances{
-        margin-top: 5em;
-        margin-bottom: 5em;
+
+        padding-top: 3em;
+        padding-bottom: 5em;
+        background-color: rgb(10, 27, 27);
         width: 100%;
-        height: 250px;
+        height: fit-content;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        gap: 2em;
-    
+    }
+    .live-performances h1{
+        font-weight: bold;
+        margin-bottom: 1em;
+        color: #e3e9e3;
+        font-family: 'Poiret One', cursive;
+
+    }
+    .live-performances-content{
+        width: 95%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+         gap: 2em;
+         justify-content: center;
     }
     .videos{
-        width: 30%;
-        height: 100%;
+        /* justify-content: center; */
+        align-items: center;
+        width: 95%;
+        height: 250px;
+         
     }
     
     
@@ -1030,7 +1050,7 @@ font-family: 'Poiret One', cursive;
     footer{
     /* border: 2px solid red; */
     background-color: black;
-    height: 10vh;
+    min-height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1041,10 +1061,12 @@ font-family: 'Poiret One', cursive;
         color: #e3e9e3;
         height: fit-content;
         display: flex;
-        width: 80%;
+        flex-direction: column;
+        width: 95%;
         font-family: Arial, Helvetica, sans-serif;
         justify-content: space-between;
         align-items: center;
+        gap: 1em;
     
     }
     .left .logo{
@@ -1053,9 +1075,6 @@ font-family: 'Poiret One', cursive;
     .left .logo span{
         font-size: 15px;
         color: #e3e9e3;
-    }
-    .RIGHT{
-    
     }
     .developer{
       text-decoration: none;
