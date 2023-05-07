@@ -387,6 +387,49 @@ background-color: rgb(12,75,71);
     gap: 1em;
 }
 
+
+
+/* APPRAISAL SKITS  */
+.appraisal-skits{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(4, 10, 10);
+    color: #e3e9e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appraisal-contents{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.appraisal-videos{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    
+
+}
+.random-request, .special-request{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.appraisal-videos video {
+    width: max-content;
+    height: 400px;
+}
+
 /* EVENTS  */
 .events{
     background-color: #eaf1ea;
@@ -949,6 +992,54 @@ font-family: 'Poiret One', cursive;
         text-align: center;
         gap: 1em;
     }
+
+
+
+/* APPRAISAL SKITS  */
+.appraisal-skits{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(4, 10, 10);
+    color: #e3e9e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.appraisal-contents{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.appraisal-videos{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    
+
+}
+.random-request, .special-request{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.appraisal-videos video {
+    width: 100%;
+    height: 300px;
+}
+
+
+
     
 
     /* EVENTS  */
